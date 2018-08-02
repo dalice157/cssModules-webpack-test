@@ -1,0 +1,13 @@
+.pageController{
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.pageController li{
+  text-align: center;
+}
+.pageController li.on{
+  border-bottom: 1px solid blueviolet;
+}

@@ -14,9 +14,11 @@ class Button extends Component {
   render() {
     const {typeStyle, children} = this.props;
     return (
-      <button className={`${btn.btn} ${this.renderBtn(typeStyle)}`}>
-      {children}
-      </button>
+      <React.Fragment>
+        <button className={`${btn.btn} ${this.renderBtn(typeStyle)}`}>
+        {children}
+        </button>
+      </React.Fragment>
     );
   }
 }
